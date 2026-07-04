@@ -5,6 +5,7 @@ import './globals.css';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { Toaster } from '@/components/ui/toaster';
+import { MonetagAdProvider } from '@/components/ads/MonetagAdProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -31,10 +32,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} flex min-h-screen flex-col`}>
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <Toaster />
+        <MonetagAdProvider>
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <Toaster />
+        </MonetagAdProvider>
       </body>
     </html>
   );
