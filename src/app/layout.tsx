@@ -10,17 +10,25 @@ import { MonetagAdProvider } from '@/components/ads/MonetagAdProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Convertly - Fast, Free, Private File Conversion',
-  description: 'Convert PDF, Images, Documents, and Data files instantly. No accounts, no history, 100% private.',
+  title: {
+    default: 'Convertly - Fast, Free, Private File Conversion',
+    template: '%s | Convertly'
+  },
+  description: 'Convert PDF, Images, Documents, and Data files instantly. No accounts, no history, 100% private and secure file transformation.',
+  icons: {
+    icon: '/favicon.ico',
+  },
   verification: {
     other: {
       monetag: '5e0ea0938919c3c9ffb62d181296a88a',
     },
   },
   openGraph: {
-    title: 'Convertly - Free File Conversion',
-    description: 'The ultimate tool for converting your files quickly and privately.',
+    title: 'Convertly - Ultimate Private File Converter',
+    description: 'Transform your documents and images without uploading them to permanent storage. 100% private, ephemeral processing.',
     type: 'website',
+    url: 'https://convertly.app', // Update with your real domain
+    siteName: 'Convertly',
   },
 };
 
