@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: 'BlueTalk - Ultimate Private File Converter',
     description: 'Transform your documents and images without uploading them to permanent storage. 100% private, ephemeral processing.',
     type: 'website',
-    url: 'https://bluetalk.app', 
+    url: 'https://bluetalk.site', 
     siteName: 'BlueTalk',
   },
 };
