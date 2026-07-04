@@ -35,7 +35,7 @@ export default function HomePage() {
             className="inline-flex items-center rounded-full border border-primary/20 px-4 py-1.5 text-xs font-bold mb-8 bg-primary/5 backdrop-blur-sm text-primary uppercase tracking-widest"
           >
             <Sparkles className="mr-2 h-3 w-3 fill-primary" />
-            <span>Secure Enterprise-Grade Conversion</span>
+            <span>BlueTalk Conversation Suite</span>
           </motion.div>
           
           <motion.h1 
@@ -53,7 +53,7 @@ export default function HomePage() {
             transition={{ delay: 0.1 }}
             className="text-xl text-muted-foreground max-w-2xl mb-12 leading-relaxed"
           >
-            Stop uploading sensitive data to permanent servers. Convertly processes everything in transient memory, ensuring your privacy is never compromised.
+            BlueTalk processes everything in transient memory. Stop uploading sensitive data to permanent servers. Your privacy is our priority.
           </motion.p>
 
           <motion.div 
@@ -63,7 +63,7 @@ export default function HomePage() {
             className="flex flex-wrap items-center justify-center gap-6"
           >
             <Button size="lg" className="rounded-full px-10 h-16 text-lg font-bold shadow-2xl shadow-primary/30" asChild>
-              <Link href="/pdf-tools">Start Converting <ArrowRight className="ml-2 h-5 w-5" /></Link>
+              <Link href="/pdf-tools">Start Transforming <ArrowRight className="ml-2 h-5 w-5" /></Link>
             </Button>
             <Button size="lg" variant="outline" className="rounded-full px-10 h-16 text-lg font-bold border-2" asChild>
               <Link href="/about">How It Works</Link>
@@ -72,7 +72,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Visual Benefits Section - Replaces the big cards */}
+      {/* Visual Benefits Section */}
       <section className="container">
         <div className="grid md:grid-cols-3 gap-12">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="flex flex-col items-center text-center group">
@@ -80,7 +80,7 @@ export default function HomePage() {
               <Lock className="h-10 w-10 text-primary" />
             </div>
             <h3 className="text-2xl font-bold mb-4 tracking-tight">Zero Storage Policy</h3>
-            <p className="text-muted-foreground leading-relaxed">Files are processed in RAM and purged instantly after download. We never write your data to a disk.</p>
+            <p className="text-muted-foreground leading-relaxed">Files are processed in RAM and purged instantly after download. BlueTalk never writes your data to disk.</p>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="flex flex-col items-center text-center group">
@@ -131,7 +131,7 @@ export default function HomePage() {
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="text-center md:text-left">
               <h2 className="text-3xl font-black mb-4">Ready to start?</h2>
-              <p className="text-muted-foreground mb-8">Choose from our most popular professional tools.</p>
+              <p className="text-muted-foreground mb-8">Choose from BlueTalk's most popular professional tools.</p>
               <div className="flex flex-wrap gap-3 justify-center md:justify-start">
                 {['PDF to Word', 'Image to PDF', 'Word to PDF', 'JSON to CSV'].map((t) => (
                   <div key={t} className="flex items-center gap-2 text-sm font-bold bg-muted px-4 py-2 rounded-full">

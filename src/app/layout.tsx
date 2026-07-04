@@ -11,24 +11,24 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Convertly - Fast, Free, Private File Conversion',
-    template: '%s | Convertly'
+    default: 'BlueTalk - Fast, Free, Private File Conversion',
+    template: '%s | BlueTalk'
   },
-  description: 'Convert PDF, Images, Documents, and Data files instantly. No accounts, no history, 100% private and secure file transformation.',
+  description: 'BlueTalk offers professional file transformation tools. Convert PDF, Images, Documents, and Data files instantly. No accounts, 100% private and secure.',
   icons: {
     icon: '/favicon.ico',
   },
   verification: {
     other: {
-      monetag: '5e0ea0938919c3c9ffb62d181296a88a',
+      monetag: '17603a6efb72f5cbba839e26f19acd81',
     },
   },
   openGraph: {
-    title: 'Convertly - Ultimate Private File Converter',
+    title: 'BlueTalk - Ultimate Private File Converter',
     description: 'Transform your documents and images without uploading them to permanent storage. 100% private, ephemeral processing.',
     type: 'website',
-    url: 'https://convertly.app', // Update with your real domain
-    siteName: 'Convertly',
+    url: 'https://bluetalk.app', 
+    siteName: 'BlueTalk',
   },
 };
 

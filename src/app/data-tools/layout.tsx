@@ -2,8 +2,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Data Tools - JSON, XML, YAML Converters for Developers',
-  description: 'Modern tools for developers and data analysts. Convert JSON to CSV, YAML to JSON, and transform data structures with ease.',
+  title: 'Data Tools - JSON, XML, YAML Converters | BlueTalk',
+  description: 'Modern tools for developers and data analysts by BlueTalk. Convert JSON to CSV, YAML to JSON, and transform data structures with ease.',
 };
 
 export default function DataToolsLayout({ children }: { children: React.ReactNode }) {

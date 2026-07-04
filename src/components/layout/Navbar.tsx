@@ -3,8 +3,9 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FileStack, ChevronDown, Menu, X, FileText, Sparkles, Table, Code, ArrowRight } from 'lucide-react';
+import { ChevronDown, Menu, X, FileText, Sparkles, Table, Code, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const navItems = [
@@ -21,11 +22,17 @@ export function Navbar() {
     <header className="sticky top-0 z-[60] w-full border-b bg-background/80 backdrop-blur-xl">
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center gap-10">
-          <Link href="/" className="flex items-center gap-2 font-black text-2xl tracking-tighter">
-            <div className="bg-primary rounded-xl p-1.5 shadow-lg shadow-primary/20">
-              <FileStack className="h-6 w-6 text-primary-foreground" />
+          <Link href="/" className="flex items-center gap-3 font-black text-2xl tracking-tighter">
+            <div className="relative w-10 h-10 overflow-hidden">
+               <Image 
+                src="/logo.png" 
+                alt="BlueTalk Logo" 
+                fill 
+                className="object-contain"
+                priority
+               />
             </div>
-            <span>Convertly</span>
+            <span>BlueTalk</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-muted-foreground">

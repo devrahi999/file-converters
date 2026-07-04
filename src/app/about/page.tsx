@@ -1,10 +1,11 @@
+
 export default function AboutPage() {
   return (
     <div className="container py-24 max-w-4xl">
-      <h1 className="text-4xl font-bold mb-8">About Convertly</h1>
+      <h1 className="text-4xl font-bold mb-8">About BlueTalk</h1>
       <div className="prose prose-neutral max-w-none">
         <p className="text-xl text-muted-foreground mb-6">
-          Convertly was built with a single mission: to provide professional-grade file conversion tools that value user privacy above all else.
+          BlueTalk was built with a single mission: to provide professional-grade file transformation tools that value user privacy above all else.
         </p>
         <h2 className="text-2xl font-bold mt-12 mb-4">Our Core Principles</h2>
         <div className="grid md:grid-cols-2 gap-8 my-8">
@@ -18,7 +19,7 @@ export default function AboutPage() {
           </div>
         </div>
         <p className="text-muted-foreground">
-          Whether you're converting a legal PDF to Word or sensitive data from JSON to CSV, you can trust that your documents are handled with the highest level of security.
+          Whether you're converting a legal PDF to Word or sensitive data from JSON to CSV, you can trust that BlueTalk handles your documents with the highest level of security.
         </p>
       </div>
     </div>
